@@ -22,19 +22,18 @@
         REMOVE THIS LIKE THE EXAMPLE! 
 
 # Masternode config file
-
-# Format:
+ Format:
         alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
 
 # like this
         mn01 127.0.0.1:18878 xxxxxxxxPRIVATExxxxxKEYxxxxxHERExxx txidxxxgoesxxxherexxx 1
 
 
-# KEEP WALLET AND DEBUG OPEN still BUT SAVE the masternode.conf file 
+# KEEP WALLET AND DEBUG OPEN,
+         SAVE the masternode.conf file 
 
 # FROM FRESH UBUNTU 
-
-# login via ssh 
+        login via ssh 
 
 # copy and paste this 
 
