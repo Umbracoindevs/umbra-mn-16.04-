@@ -49,14 +49,13 @@
 # open debug console again
 
 # COPY AND PAST THIS BUT FIX ALIAS NAME FOR YOUR CORRECT ALIAS:
-
-# startmasternode alias false YOURALIAS
+        startmasternode alias false YOURALIAS
 
 # After running the command go back to your VPS
 
-# Enter 
+# Enter to get back to your root directory
+
       cd 
-# to get back to your root directory
 
 # Enter 
       umbra-cli masternode status
