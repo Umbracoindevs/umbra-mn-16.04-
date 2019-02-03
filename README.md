@@ -43,8 +43,7 @@
         it will tell you when its completed and ready to continue to next step. 
 
 # close cold wallet and reopen 
-
-# open debug console again
+        open debug console again
 
 # Copy and paste this, but change YOURALIAS 
         startmasternode alias false YOURALIAS
