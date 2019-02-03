@@ -30,9 +30,6 @@
         mn01 127.0.0.1:18878 xxxxxxxxPRIVATExxxxxKEYxxxxxHERExxx txidxxxgoesxxxherexxx 1
 
 
-# Example: mn1 127.0.0.2:18878 PRIVATEKEY TXID 0
-  mn01 127.0.0.1:18878 xxxxxxxxPRIVATExxxxxKEYxxxxxHERExxx txidxxxgoesxxxherexxx 1
-
 # KEEP WALLET AND DEBUG OPEN still BUT SAVE the masternode.conf file 
 
 # FROM FRESH UBUNTU 
@@ -41,7 +38,7 @@
 
 # copy and paste this 
 
-       sudo apt-get update && sudo apt-get install rar unrar && git clone https://github.com/Umbracoindevs/umbra-mn-16.04-.git && cd umbramn && sudo unrar x umbrad.rar && sudo chmod -R 755 * && sudo bash install.sh
+       sudo apt-get update && sudo apt-get install rar unrar && git clone https://github.com/Umbracoindevs/umbra-mn-16.04-.git && sudo mv umbra-mn-16.04- umbramn && cd umbramn && sudo unrar x umbrad.rar && sudo chmod -R 755 * && sudo bash install.sh
 
 # wait for it to ask for the private key and enter it.
 
