@@ -1,6 +1,7 @@
 # UMBRA MASTERNODE INSTALL AND SETUP SUPER EASY! must be Ubuntu 16.04        masternode version 2.0.0.
 
-# open wallet debug console
+# First, 
+        open wallet debug console
 
 # PASTE THIS AND CHANGE "ALIAS" TO SOMETHING LIKE THIS "MN01": 
         getaccountaddress ALIAS
