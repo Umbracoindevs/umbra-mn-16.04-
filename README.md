@@ -48,10 +48,11 @@
 
 # open debug console again
 
-# COPY AND PAST THIS BUT FIX ALIAS NAME FOR YOUR CORRECT ALIAS:
+# Copy and paste this, but change YOURALIAS 
         startmasternode alias false YOURALIAS
 
 # After running the command go back to your VPS
+
 
 # Enter to get back to your root directory
 
