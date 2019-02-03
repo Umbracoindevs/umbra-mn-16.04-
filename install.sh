@@ -62,6 +62,7 @@ sudo ufw allow 18878/tcp echo -e "${GREEN}Completion: 40%...${NC}"
 sudo ufw logging on 
 echo -e "${GREEN}Completion: 66%...${NC}"
 echo "y" | sudo ufw enable 
+sudo mv umbra-mn-16.04- umbramn
 echo -e "${GREEN}Completion: 77%...${NC}"
 sudo chmod +x /root/umbramn/umbrad /root/umbramn/umbra-cli
 echo -e "${GREEN}Completion: 78%...${NC}"
